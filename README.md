@@ -1,1 +1,2 @@
-Device Tree For Samsung Galaxy A53 (WIP)
+Device Tree For The Samsung Galaxy A53 5G
+Powered By Exynos1280
