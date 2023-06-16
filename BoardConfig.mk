@@ -27,6 +27,7 @@ DEXPREOPT_GENERATE_APEX_IMAGE := true
 ## Kernel
 TARGET_KERNEL_CONFIG := afaneh_a53x_defconfig
 TARGET_KERNEL_SOURCE := kernel/samsung/a53x
+TARGET_NO_KERNEL=false
 
 # OTA assert
 TARGET_OTA_ASSERT_DEVICE := a53x
