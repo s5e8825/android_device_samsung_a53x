@@ -24,9 +24,11 @@ DEVICE_PATH := device/samsung/a53x
 ## APEX image
 DEXPREOPT_GENERATE_APEX_IMAGE := true
 
-## Kernel
-TARGET_KERNEL_CONFIG := afaneh_a53x_defconfig
-TARGET_KERNEL_SOURCE := kernel/samsung/a53x
+## Prebuilt Kernel
+TARGET_FORCE_PREBUILT_KERNEL := true
+TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilts/kernel
+TARGET_PREBUILT_DTB := $(DEVICE_PATH)/prebuilts/dtb.img
+BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/prebuilts/dtbo.img
 
 # OTA assert
 TARGET_OTA_ASSERT_DEVICE := a53x
