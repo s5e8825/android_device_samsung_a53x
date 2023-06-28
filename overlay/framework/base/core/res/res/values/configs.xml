@@ -25,6 +25,7 @@
         <item>2137</item>
         <item>119</item>
     </integer-array>
-
     <string name="config_mainBuiltInDisplayCutout">M 0,0 M 0,11.43427858034597 a 9.899054752987353,9.899054752987353 0 1,0 0,19.79810950597471 a 9.899054752987353,9.899054752987353 0 1,0 0,-19.79810950597471 Z @dp</string>
+
+    <dimen name="rounded_corner_radius">100.0px</dimen>
 </resources>
