@@ -50,6 +50,7 @@ TARGET_KERNEL_CONFIG := lineage_a53x_defconfig
 TARGET_KERNEL_SOURCE := kernel/samsung/a53x
 TARGET_KERNEL_ARCH := arm64
 TARGET_NO_KERNEL := false
+TARGET_KERNEL_NO_GCC := false
 
 # OTA assert
 TARGET_OTA_ASSERT_DEVICE := a53x
