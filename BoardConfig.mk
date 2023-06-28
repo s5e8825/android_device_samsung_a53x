@@ -24,6 +24,9 @@ DEVICE_PATH := device/samsung/a53x
 ## APEX image
 DEXPREOPT_GENERATE_APEX_IMAGE := true
 
+# Display
+TARGET_SCREEN_DENSITY := 450
+
 ## Kernel
 BOARD_KERNEL_CMDLINE := androidboot.selinux=permissive bootconfig buildtime_bootconfig=enable loop.max_part=7
 BOARD_BOOT_HEADER_VERSION := 2
