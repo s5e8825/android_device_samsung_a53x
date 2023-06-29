@@ -64,7 +64,7 @@ vendor/apex/com.samsung.android.biometrics.fingerprint.signed.apex
 vendor/apex/com.samsung.android.biometrics.face.signed.apex
 vendor/apex/com.samsung.android.biometrics.fingerprint.signed.apex
 vendor/etc/init/fingerprint_common.rc
-vendor/etc/init/init.fingerprint.rc
+-vendor/etc/init/init.fingerprint.rc
 vendor/etc/init/vendor.samsung.hardware.biometrics.fingerprint@3.0-service.rc
 -vendor/etc/vintf/manifest/vendor.samsung.hardware.biometrics.fingerprint@3.0-service.xml
 vendor/lib/android.hardware.biometrics.common-V1-ndk_platform.so
@@ -95,7 +95,7 @@ vendor/lib/libstagefright_soft_mpeg2dec.so
 
 # NFC
 vendor/bin/hw/android.hardware.secure_element@1.2-service
-vendor/bin/hw/sec.android.hardware.nfc@1.2-service
+-vendor/bin/hw/sec.android.hardware.nfc@1.2-service
 vendor/etc/init/android.hardware.secure_element@1.2-service.rc
 vendor/etc/init/init.nfc.samsung.rc
 vendor/etc/init/sec.android.hardware.nfc@1.2-service.rc
