@@ -30,6 +30,10 @@ TARGET_SCREEN_DENSITY := 450
 # DTBO
 BOARD_DTBO_CFG := $(DEVICE_PATH)/configs/kernel/$(TARGET_DEVICE).cfg
 
+# Kernel
+TARGET_KERNEL_CONFIG := lineage_a53x_defconfig
+TARGET_KERNEL_SOURCE := kernel/samsung/a53x
+
 # OTA assert
 TARGET_OTA_ASSERT_DEVICE := a53x
 
