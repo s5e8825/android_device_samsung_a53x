@@ -69,7 +69,6 @@ vendor/etc/init/vendor.samsung.hardware.biometrics.fingerprint@3.0-service.rc
 -vendor/etc/vintf/manifest/vendor.samsung.hardware.biometrics.fingerprint@3.0-service.xml
 vendor/lib/android.hardware.biometrics.common-V1-ndk_platform.so
 vendor/lib/android.hardware.biometrics.face-V1-ndk_platform.so
-vendor/lib/libbthserver.so
 vendor/lib/libbauthtzcommon.so
 vendor/lib/libegis_fp_normal_sensor_test.so
 vendor/lib/libgf_in_system_lib.so
