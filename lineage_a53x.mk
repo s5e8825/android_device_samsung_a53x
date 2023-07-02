@@ -40,3 +40,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 # Fingerprint	
 BUILD_FINGERPRINT := samsung/a53xnaxx/essi:13/TP1A.220624.014/A536BXXU4BVJG:user/release-keys
+
+PRODUCT_PACKAGES += com.android.vndk.current.on_vendor
